@@ -1,0 +1,73 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.AddingPassword{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    width: 60%;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.AddingPassword button , input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    margin: 10px;
+    padding-left: 15px;
+    font-size: 17px;
+
+}
+
+button{
+    cursor: pointer;
+}
+
+/*For the entire password division*/
+.Passwords{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/*For individual password*/
+.password{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(218, 233, 12);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.text1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(197, 224, 248);
+    border-radius: 5px;
+}
+
+.text2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(197, 224, 248);
+    border-radius: 5px;
+}
